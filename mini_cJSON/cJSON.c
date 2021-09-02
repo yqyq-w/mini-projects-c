@@ -266,7 +266,7 @@ int validate_string(char *string_JSON) {
 	
 	}
 
-	return index_l <= 0;
+	return index_l == 0;
 }
 
 
